@@ -3,3 +3,5 @@ def apply_discount(price, discount):
     if not 0 <= final_price < price:
         raise ValueError("Invalid Discount")
     return final_price
+
+print()
